@@ -1,0 +1,12 @@
+CollisionShape2D
+Area2D
+CharacterBody2D
+ProgressBar
+CanvasLayer
+AnimatedSprite2D
+Camera2D
+TileMap
+TextureButton
+Button
+ParallaxLayer
+ParallaxBackground
