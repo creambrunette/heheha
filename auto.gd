@@ -15,8 +15,8 @@ func _physics_process(delta):
 	
 	if Main.isincar and Input.is_action_just_pressed("exitCar"):
 		var playerinstance = playerload.instantiate()
-		playerinstance.position.x = self.positon.x + 20
 		add_child(playerinstance)
+		playerinstance.position.x = self.position.x - 320
 		Main.isincar = false
 		print(Main.isincar)
 		
