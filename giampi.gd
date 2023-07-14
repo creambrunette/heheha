@@ -10,6 +10,13 @@ func _ready():
 
 func _physics_process(delta):
 	
+	if Main.isincar:
+		self.visible = false
+		$Camera2D.enabled = false
+	else:
+		self.visible = true
+		$Camera2D.enabled = true
+	
 	if Main.giampihealth <= 0:
 		death()
 	

@@ -1,7 +1,6 @@
 extends CharacterBody2D
 
 var canenter: bool = false
-var playerload = preload("res://giampi.tscn")
 @onready var player = $"../giampi"
 
 func _ready():
@@ -10,14 +9,11 @@ func _ready():
 func _physics_process(delta):
 	if Input.is_action_just_pressed("interact") and canenter and !Main.isincar:
 		Main.isincar = true
-		player.queue_free()
+		$Camera2D.enabled = true
 		print(Main.isincar)
-	
 	if Main.isincar and Input.is_action_just_pressed("exitCar"):
-		var playerinstance = playerload.instantiate()
-		add_child(playerinstance)
-		playerinstance.position.x = self.position.x - 320
 		Main.isincar = false
+		$Camera2D.enabled = false
 		print(Main.isincar)
 		
 
