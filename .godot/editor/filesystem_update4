@@ -1,6 +1,8 @@
-res://auto.tscn
+res://giampihouse.tscn
 res://giampi.gd
 res://auto.gd
 res://main.tscn
-res://giampihouse.tscn
 res://giampi.tscn
+res://auto.tscn
+res://script/main.gd
+res://menuBG.tscn
