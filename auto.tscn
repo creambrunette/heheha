@@ -16,11 +16,9 @@ script = ExtResource("1_a14gb")
 position = Vector2(1.52588e-05, -7.99999)
 scale = Vector2(0.428889, 0.428889)
 texture = ExtResource("1_36b7u")
-metadata/_edit_lock_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_au2ok")
-metadata/_edit_lock_ = true
 
 [node name="interaction_zone" type="Area2D" parent="."]
 

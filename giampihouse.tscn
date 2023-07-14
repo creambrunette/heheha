@@ -472,4 +472,4 @@ layer_0/tile_data = PackedInt32Array(2359302, 196608, 1, 2359303, 196608, 1, 235
 position = Vector2(128, 560)
 
 [node name="car" parent="." instance=ExtResource("9_md7tr")]
-position = Vector2(408, 551)
+position = Vector2(258, 548)

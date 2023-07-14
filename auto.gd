@@ -18,20 +18,19 @@ func _physics_process(delta):
 		$Camera2D.enabled = false
 		print(Main.isincar)
 		
-		if not is_on_floor():
-			velocity.y += gravity * delta
-		
-		var direction = Input.get_axis("left", "right")
-		print(Main.isincar)
-		if direction and Main.isincar:
-			velocity.x = direction * SPEED
-			if direction == 1:
-				$AutoPng.flip_h = true
-			else:
-				$AutoPng.flip_h = false
+	if not is_on_floor():
+		velocity.y += gravity * delta
+	
+	var direction = Input.get_axis("left", "right")
+	if direction and Main.isincar:
+		velocity.x = direction * SPEED
+		if direction == 1:
+			$AutoPng.flip_h = false
 		else:
-			velocity.x = move_toward(velocity.x, 0, SPEED)
-		move_and_slide()
+			$AutoPng.flip_h = true
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+	move_and_slide()
 
 func _on_interaction_zone_body_entered(body):
 	if body.name == "giampi":
