@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1689263620
-auto.gd::GDScript::-1::1689263620::0::1::::<>CharacterBody2D<>::
-auto.tscn::PackedScene::5461871811267768912::1689263620::0::1::::<><>::uid://b8x522oe3tqne::::res://auto_png.png<>res://auto.gd
+::res://::1689321250
+auto.gd::GDScript::-1::1689263777::0::1::::<>CharacterBody2D<>::
+auto.tscn::PackedScene::5461871811267768912::1689263777::0::1::::<><>::uid://b8x522oe3tqne::::res://auto_png.png<>res://auto.gd
 auto_png.png::CompressedTexture2D::4752004378287611222::1689257937::1689257937::1::::<><>::
 damodificare.png::CompressedTexture2D::2101420717191453595::1689257937::1689257937::1::::<><>::
 giampi.gd::GDScript::-1::1689261514::0::1::::<>CharacterBody2D<>::
@@ -11,26 +11,9 @@ icon.svg::CompressedTexture2D::4623822074074071848::1689257937::1689261429::1:::
 ilsupremo.jpg::CompressedTexture2D::5063195746512726783::1689257937::1689257937::1::::<><>::
 main.gd::GDScript::-1::1689257937::0::1::::<>Node2D<>::
 main.tscn::PackedScene::7671871321406778034::1689263620::0::1::::<><>::res://main.gd<>uid://bjlt846shkqsc::::res://menuBG.tscn<>uid://ceewdg5s0cskd::::res://ilsupremo.jpg
-menuBG.tscn::PackedScene::3042042557685169638::1689257937::0::1::::<><>::uid://ceewdg5s0cskd::::res://ilsupremo.jpg
+menuBG.tscn::PackedScene::3042042557685169638::1689257937::0::1::::<><>::uid://ceewdg5s0cskd
 ::res://script/::1689257937
 main.gd::GDScript::-1::1689257937::0::1::::<>Node<>::
-::res://Sidescroller Shooter - Central City/::1689257936
-::res://Sidescroller Shooter - Central City/Sidescroller Shooter - Central City/::1689257936
-::res://Sidescroller Shooter - Central City/Sidescroller Shooter - Central City/Assets/::1689257936
-Buildings.png::CompressedTexture2D::4390035497307715737::1689257936::1689257936::1::::<><>::
-Props-01.png::CompressedTexture2D::8489414507069933851::1689257936::1689257936::1::::<><>::
-Tiles.png::CompressedTexture2D::4016850188477735715::1689257936::1689257936::1::::<><>::
-::res://Sidescroller Shooter - Central City/Sidescroller Shooter - Central City/Background/::1689257936
-Background Props.png::CompressedTexture2D::5677692408343464220::1689257936::1689257936::1::::<><>::
-Base Color.png::CompressedTexture2D::8756918024041749028::1689257936::1689257936::1::::<><>::
-Frontal Fog.png::CompressedTexture2D::4549182809003772674::1689257936::1689257936::1::::<><>::
-Mid Fog.png::CompressedTexture2D::930557049310493317::1689257936::1689257936::1::::<><>::
-::res://Sidescroller Shooter - Central City/Sidescroller Shooter - Central City/Social/::1689257936
-Background Props.png::CompressedTexture2D::1248759416657830007::1689257936::1689257936::1::::<><>::
-Buildings.png::CompressedTexture2D::4955355713058698849::1689257936::1689257936::1::::<><>::
-MockUp-01.png::CompressedTexture2D::4987434972433728461::1689257936::1689257936::1::::<><>::
-Props-01.png::CompressedTexture2D::6769947344112702858::1689257936::1689257936::1::::<><>::
-Tiles.png::CompressedTexture2D::6564174203983778453::1689257936::1689257936::1::::<><>::
 ::res://Sunny Land houses/::1689257936
 ::res://Sunny Land houses/Sunny Land Trees Props Pack/::1689257936
 public-license.txt::TextFile::-1::1689257936::0::1::::<><>::
