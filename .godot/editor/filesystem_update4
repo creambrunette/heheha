@@ -1,7 +1,8 @@
-res://giampi.gd
-res://scenes/auto.gd
+res://scenes/giampihouse.tscn
 res://scenes/giampi.gd
-res://scenes/main.gd
-res://scenes/giampi.tscn
 res://scenes/main.tscn
+res://scenes/giampi.tscn
 res://scenes/auto.tscn
+res://scenes/enemy.tscn
+res://scenes/menuBG.tscn
+res://script/main.gd
