@@ -1,8 +1,8 @@
-res://giampihouse.tscn
-res://giampi.gd
-res://auto.gd
 res://main.tscn
+res://giampi.gd
+res://giampihouse.tscn
 res://giampi.tscn
 res://auto.tscn
-res://script/main.gd
-res://menuBG.tscn
+res://auto.gd
+res://CharacterBody2D.gd
+res://testsas.tscn
