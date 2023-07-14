@@ -12,9 +12,11 @@ func _physics_process(delta):
 	
 	if Main.isincar:
 		self.visible = false
+		$CollisionShape2D.disabled = true
 		$Camera2D.enabled = false
 	else:
 		self.visible = true
+		$CollisionShape2D.disabled = false
 		$Camera2D.enabled = true
 	
 	if Main.giampihealth <= 0:
