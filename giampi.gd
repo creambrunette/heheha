@@ -23,11 +23,11 @@ func _physics_process(delta):
 	if not is_on_floor() and !Main.isincar:
 		velocity.y += gravity * delta
 
-	if Input.is_action_just_pressed("up") and is_on_floor():
+	if Input.is_action_just_pressed("up") and is_on_floor() and !Main.isincar:
 		velocity.y = JUMP_VELOCITY
 
 	var direction = Input.get_axis("left", "right")
-	if direction:
+	if direction and !Main.isincar:
 		velocity.x = direction * SPEED
 		if direction == 1:
 			$AnimatedSprite2D.flip_h = true

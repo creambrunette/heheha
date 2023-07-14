@@ -1,16 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1689324034
-auto.gd::GDScript::-1::1689324027::0::1::::<>CharacterBody2D<>::
-auto.tscn::PackedScene::5461871811267768912::1689324034::0::1::::<><>::uid://b8x522oe3tqne::::res://auto_png.png<>res://auto.gd
+::res://::1689325012
+auto.gd::GDScript::-1::1689325012::0::1::::<>CharacterBody2D<>::
+auto.tscn::PackedScene::5461871811267768912::1689325012::0::1::::<><>::uid://b8x522oe3tqne::::res://auto_png.png<>res://auto.gd
 auto_png.png::CompressedTexture2D::4752004378287611222::1689257937::1689257937::1::::<><>::
 damodificare.png::CompressedTexture2D::2101420717191453595::1689257937::1689257937::1::::<><>::
-giampi.gd::GDScript::-1::1689323882::0::1::::<>CharacterBody2D<>::
-giampi.tscn::PackedScene::4233370254387403080::1689324034::0::1::::<><>::res://giampi.gd<>uid://467detp2deml::::res://damodificare.png
-giampihouse.tscn::PackedScene::3096087588000410598::1689324034::0::1::::<><>::uid://bm6w5kgy6y1qs::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/plant-house.png<>uid://bw5lprho5ngd2::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/rock-1.png<>uid://cn15nafx13nma::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/rock-2.png<>uid://cvscin53jdi3k::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/straw-house.png<>uid://bwl766wvxkuo0::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/tree-house.png<>uid://u6yk8hgpl1gt::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/wooden-house.png<>uid://e3e1j3vbmv2p::::res://Sunny-land-files/Sunny-land-assets-files/PNG/environment/layers/tileset.png<>uid://b1kw8v7yh6sma::::res://giampi.tscn<>uid://cj21h30daesjw::::res://auto.tscn
+giampi.gd::GDScript::-1::1689324586::0::1::::<>CharacterBody2D<>::
+giampi.tscn::PackedScene::4233370254387403080::1689324885::0::1::::<><>::res://giampi.gd<>uid://467detp2deml::::res://damodificare.png
+giampihouse.tscn::PackedScene::3096087588000410598::1689324885::0::1::::<><>::uid://bm6w5kgy6y1qs::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/plant-house.png<>uid://bw5lprho5ngd2::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/rock-1.png<>uid://cn15nafx13nma::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/rock-2.png<>uid://cvscin53jdi3k::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/straw-house.png<>uid://bwl766wvxkuo0::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/tree-house.png<>uid://u6yk8hgpl1gt::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/wooden-house.png<>uid://e3e1j3vbmv2p::::res://Sunny-land-files/Sunny-land-assets-files/PNG/environment/layers/tileset.png<>uid://b1kw8v7yh6sma::::res://giampi.tscn<>uid://cj21h30daesjw::::res://auto.tscn
 icon.svg::CompressedTexture2D::4623822074074071848::1689257937::1689261429::1::::<><>::
 ilsupremo.jpg::CompressedTexture2D::5063195746512726783::1689257937::1689257937::1::::<><>::
 main.gd::GDScript::-1::1689257937::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7671871321406778034::1689324034::0::1::::<><>::res://main.gd<>uid://bjlt846shkqsc::::res://menuBG.tscn<>uid://ceewdg5s0cskd::::res://ilsupremo.jpg
+main.tscn::PackedScene::7671871321406778034::1689324884::0::1::::<><>::res://main.gd<>uid://bjlt846shkqsc::::res://menuBG.tscn<>uid://ceewdg5s0cskd::::res://ilsupremo.jpg
 menuBG.tscn::PackedScene::3042042557685169638::1689323168::0::1::::<><>::uid://ceewdg5s0cskd::::res://ilsupremo.jpg
 ::res://script/::1689322566
 main.gd::GDScript::-1::1689322566::0::1::::<>Node<>::
