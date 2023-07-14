@@ -22,6 +22,7 @@ func _physics_process(delta):
 			velocity.y += gravity * delta
 		
 		var direction = Input.get_axis("left", "right")
+		print(Main.isincar)
 		if direction and Main.isincar:
 			velocity.x = direction * SPEED
 			if direction == 1:
