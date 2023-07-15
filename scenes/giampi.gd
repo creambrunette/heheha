@@ -33,8 +33,10 @@ func _physics_process(delta):
 		velocity.x = direction * SPEED
 		if direction == 1:
 			$AnimatedSprite2D.flip_h = true
+			$attackarea.scale.x = -1
 		else:
 			$AnimatedSprite2D.flip_h = false
+			$attackarea.scale.x = 1
 	else:	
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	move_and_slide()
@@ -42,3 +44,7 @@ func _physics_process(delta):
 func death():
 	Main.giampihealth = 3
 	get_tree().reload_current_scene()
+
+func _on_attackarea_body_entered(body):
+	if body.is_in_group("hittable") and !Main.isincar:
+		body.takeDamage(1)

@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scenes/enemy.gd" id="1_4t1su"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3ynpn"]
-size = Vector2(40, 40)
+size = Vector2(28, 40)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_c7xe1"]
 animations = [{
@@ -27,9 +27,8 @@ size = Vector2(23, 39)
 script = ExtResource("1_4t1su")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(4, 4)
+position = Vector2(-2, 4)
 shape = SubResource("RectangleShape2D_3ynpn")
-metadata/_edit_lock_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(4, 4)
@@ -39,21 +38,27 @@ animation = &"idle"
 metadata/_edit_lock_ = true
 
 [node name="playerDetection" type="Area2D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="playerDetection"]
 shape = SubResource("CircleShape2D_5wnc2")
+metadata/_edit_lock_ = true
 
 [node name="attackArea" type="Area2D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="attackArea"]
 position = Vector2(37.5, 4.5)
 shape = SubResource("RectangleShape2D_xb8yx")
+metadata/_edit_lock_ = true
 
 [node name="debug" type="Panel" parent="attackArea/CollisionShape2D"]
 offset_left = -11.5
 offset_top = -20.5
 offset_right = 11.5
 offset_bottom = 19.5
+metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
 
 [connection signal="body_entered" from="playerDetection" to="." method="_on_player_detection_body_entered"]
 [connection signal="body_exited" from="playerDetection" to="." method="_on_player_detection_body_exited"]

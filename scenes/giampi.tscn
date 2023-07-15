@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://b1kw8v7yh6sma"]
+[gd_scene load_steps=7 format=3 uid="uid://b1kw8v7yh6sma"]
 
 [ext_resource type="Script" path="res://scenes/giampi.gd" id="1_cyh77"]
 [ext_resource type="Texture2D" uid="uid://467detp2deml" path="res://damodificare.png" id="2_n7ryh"]
@@ -24,6 +24,9 @@ script/source = "extends ProgressBar
 func _process(_delta):
 	self.value = Main.giampihealth
 "
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ab05t"]
+size = Vector2(13, 29)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_cyh77")
@@ -57,3 +60,17 @@ max_value = 3.0
 step = 1.0
 show_percentage = false
 script = SubResource("GDScript_jxb7l")
+
+[node name="attackarea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="attackarea"]
+position = Vector2(-15.5, 0.5)
+shape = SubResource("RectangleShape2D_ab05t")
+
+[node name="Panel" type="Panel" parent="attackarea/CollisionShape2D"]
+offset_left = -6.0
+offset_top = -14.0
+offset_right = 6.0
+offset_bottom = 14.0
+
+[connection signal="body_entered" from="attackarea" to="." method="_on_attackarea_body_entered"]

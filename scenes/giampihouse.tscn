@@ -475,5 +475,5 @@ position = Vector2(128, 560)
 [node name="car" parent="." instance=ExtResource("9_md7tr")]
 position = Vector2(366, 547)
 
-[node name="enemy" parent="." instance=ExtResource("10_gqwdm")]
+[node name="enemy" parent="." groups=["hittable"] instance=ExtResource("10_gqwdm")]
 position = Vector2(608, 550)
