@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 Main="*res://script/main.gd"
 
+[display]
+
+window/size/mode=3
+
 [input]
 
 giampimode={

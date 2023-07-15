@@ -17,13 +17,17 @@ offset_right = 704.0
 offset_bottom = 592.0
 
 [node name="TextureButton" type="TextureButton" parent="."]
-offset_left = 288.0
-offset_top = 136.0
-offset_right = 864.0
-offset_bottom = 384.0
+offset_left = 362.0
+offset_top = 133.0
+offset_right = 874.0
+offset_bottom = 645.0
+scale = Vector2(0.829, 0.552)
 texture_normal = ExtResource("3_f01j8")
-ignore_texture_size = true
 stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 328)
 
 [connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

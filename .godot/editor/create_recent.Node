@@ -1,9 +1,10 @@
+Camera2D
+Control
 Panel
 CollisionShape2D
 Area2D
 AnimatedSprite2D
 CharacterBody2D
-Camera2D
 Timer
 ProgressBar
 CanvasLayer

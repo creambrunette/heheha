@@ -3,4 +3,4 @@ res://scenes/giampi.gd
 res://scenes/giampi.tscn
 res://scenes/auto.tscn
 res://scenes/enemy.tscn
-res://scenes/enemy.gd
+res://scenes/main.tscn
