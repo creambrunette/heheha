@@ -14,9 +14,9 @@ func _process(delta):
 script = SubResource("GDScript_nlik5")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
-motion_mirroring = Vector2(1152, 648)
+motion_mirroring = Vector2(2299, 1291)
 
 [node name="Ilsupremo" type="Sprite2D" parent="ParallaxLayer"]
-position = Vector2(576, 324)
-scale = Vector2(2.25, 1.26563)
+position = Vector2(1146, 643)
+scale = Vector2(4.5, 2.532)
 texture = ExtResource("1_vodg3")
